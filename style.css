@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playfair Display", system-ui;
+
+}
+
+.navbar{
+    height: 30vh;
+    width: 100%;
+    font-family: "Platypi", system-ui;
+
+    background-color:  rgb(15 23 42);
+    
+}
+
+
+
+.galimg img{
+   border-radius: 10px;
+}
+
+.galimg div{
+    cursor: pointer;
+   
+}
+.galimg div:hover{
+  border: solid 5px white;
+  border-radius: 10px;
+  transform: scale(1.05);
+
+}
+
+
+
+
+
+.subfoot{
+    background-color: rgb(15 23 42);
+    color: white;
+    height: 45vh;
+
+}
+
+hr{
+    background-color: rgb(15 23 42);
+}
+
+
+
+
+
+.secondfoot img{
+    width: 50px;
+}
+
+
+
+  footer {
+    background-color: rgb(15 23 42);
+    height: 25vh;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 0 20px; 
+}
+
+footer h2 {
+    color: white;
+    margin: 0; 
+}
+
+.subcont6 {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px; 
+}
+
+.brands {
+    color: white;
+    font-size: 2rem;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to right,blue,teal);
+    /* gradient can only be applied with background image */
+}
+.icon:hover .brands{
+    color: rgb(15 23 42);
+    animation: rotate 3s;
+
+}
+
+@keyframes rotate{
+    0%{
+       transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+     }
+     60%{
+         transform: rotate(-30deg);
+     }
+     80%{
+        transform: rotate(30deg);
+     }
+     100%{
+         transform: rotate(-30deg);
+     }
+    }
+
+    #copyright{
+        /* text-align: center; */
+        font-weight: 600;
+        color: white;
+        margin-top: 60px;
+        margin-left: -10px;
+        padding-right: 100px;
+    
+      }
+    
+      .upArrow{
+        float: right;
+       
+       
+        margin:-30px -10px 40px 50px ;
+      }
+      html{
+        scroll-behavior: smooth;
+        
+      }
+      ::-webkit-scrollbar{
+        width: 10px;
+        border-radius: 10px;
+    
+      }
+    
+      ::-webkit-scrollbar-track{
+        background-color: black;
+      }
+    
+      ::-webkit-scrollbar-thumb{
+        background-color: teal;
+        border-radius: 10px;
+      }
+    
+    
